@@ -1,0 +1,25 @@
+{
+  "name": "ginit",
+  "version": "1.0.0",
+  "description": "\"git init\" on steroids",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Emre Selen",
+  "license": "ISC",
+  "bin": {
+    "ginit": "./index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "14.0.5",
+    "clear": "0.0.1",
+    "configstore": "3.1.1",
+    "lodash": "4.17.4",
+    "simple-git": "1.89.0"
+  }
+}
