@@ -7,7 +7,7 @@ clear();
 
 // handler action on calculation complete.
 const onComplete = (arrData) => {
-	console.log('>>test branch >> this is handler in action...\n\n', arrData.toString().toUpperCase());
+	console.log(/*'>>test branch >> this is handler in action...\n\n',*/ arrData.toString().toUpperCase());
 }
 
 //read local text file.
